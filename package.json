@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "portfolio",
-  "homepage": "https://mkurma2.github.io/home",
+  "homepage": "https://mkurma2.github.io/portfolio",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
