@@ -334,7 +334,7 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science Engineering",
       logo_path: "griet_logo.png",
       alt_name: "GRIET",
-      duration: "2018 - 2022",
+      duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
@@ -347,6 +347,15 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Microsoft Azure AI Engineer Associate",
+      subtitle: "",
+      logo_path: "Azure.png",
+      certificate_link:
+        "https://nptel.ac.in/courses/106106179",
+      alt_name: "",
+      color_code: "#8C151599",
+    },
     {
       title: "Data Science for Engineers",
       subtitle: "",
@@ -400,8 +409,18 @@ const experience = {
           description:
             "Actively contributing to the development and optimization of the Patient Safety Leadership's digital presence. Pioneered SEO strategies enhancing web traffic and student engagement significantly. Collaborated with academic staff to improve backend processes, thereby elevating operational efficiency and course delivery.",
           color: "#0879bf",
+        },        
+        {
+          title: "Generative AI Engineer",
+          company: "JK Projects",
+          company_url: "https://www.jkprojects.in/",
+          logo_path: "UIC_logo.png",
+          duration: "February 2020 - July 2022",
+          location: "Hyderbad, India",
+          description:
+            "Designed and deployed a RAG system for energy consumption forecasting, integrating LLMs for dynamic updates, boosting accuracy by 20%. Implemented vector store technologies for efficient data retrieval. Developed semantic search algorithms, reducing costs by 15%. Led AI model integration with TensorFlow and PyTorch, enhancing scalability and reliability.",
+          color: "#0879bf",
         },
-        
         {
           title: "Network Security Analyst",
           company: "Verzeo Pvt. Ltd.",
