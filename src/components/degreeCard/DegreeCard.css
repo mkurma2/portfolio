@@ -26,7 +26,8 @@
   padding: 10px;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
-  /* background: transparent; */
+  background: transparent; 
+  overflow: hidden;
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 

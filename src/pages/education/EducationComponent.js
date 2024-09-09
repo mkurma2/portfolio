@@ -34,6 +34,7 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Basic Qualification and Certifcations
                 </h3>
+                <p1>Welcome to my academic journey, where I've pursued a rigorous curriculum in Computer Science at the University of Illinois at Chicago and the Gokaraju Rangaraju Institute of Engineering Technology. My studies have spanned UI/UX design, web development, and Artificial Intelligence, alongside foundational courses in Data Structures, Cyber Security, and Software Engineering. This diverse educational background has equipped me with a robust foundation to innovate and solve challenges in the tech industry.</p1>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>

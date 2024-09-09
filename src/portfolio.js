@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1YONz0K20lrJyJ9ykseBdkWTgaS8VabqO/view?usp=sharing",
+    "https://drive.google.com/file/d/1ciwTOZo-7k9ya_KNQE6IFGwlUltD472I/view?usp=sharing",
   
   githubProfile: "https://github.com/mkurma2",
 };
@@ -71,6 +71,135 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "UI/UX Design",
+      fileName: "DesignImg",
+      skills: [
+        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Customizing logo designs and building logos from scratch",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF2BC2",
+          },
+        },
+
+        {
+          skillName: "WordPress",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: {
+            color: "Blue",
+          },
+        },
+        {
+          skillName: "Drupal",
+          fontAwesomeClassname: "simple-icons:drupal",
+          style: {
+            color: "Blue",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FF7C00",
+          },
+        },
+        {
+          skillName: "Inkscape",
+          fontAwesomeClassname: "simple-icons:inkscape",
+          style: {
+            color: "#000000",
+          },
+        },
+      ],
+    },
+    {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Developing mobile applications using Flutter, React, Native and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express & Flask",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Gatsby",
+          fontAwesomeClassname: "simple-icons:gatsby",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+      ],
+    },
+    {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
@@ -115,88 +244,7 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
+    
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -265,45 +313,7 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    
   ],
 };
 
@@ -311,9 +321,8 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     
-  ]
+  ],
 };
-
 const degrees = {
   degrees: [
     {
@@ -323,9 +332,9 @@ const degrees = {
       alt_name: "UIC",
       duration: "2022 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ Developed various projects which solve real time problems in various sectors.",
+        "⚡ Skilled in UI/UX design and web development, crafting intuitive and aesthetically pleasing interfaces that enhance user engagement and provide seamless navigation across various digital platforms.",
+        "⚡ Proficient in Data Science and Artificial Intelligence, utilizing advanced algorithms to analyze large datasets and develop intelligent systems that improve decision-making processes in real-world applications.",
+        "⚡ Extensive experience in developing innovative computer algorithms, specializing in Graph Machine Learning and Network Science, to solve complex problems and optimize operations within diverse sectors.",
       ],
       website_link: "https://www.uic.edu/",
     },
@@ -336,8 +345,8 @@ const degrees = {
       alt_name: "GRIET",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I completed a comprehensive curriculum in Computer Science and Engineering, including courses in Database Systems, Java, Web Applications using HTML, CSS, JS, Data Structures, Cyber Security, Object-Oriented Programming, and Software Engineering.",
+        "⚡ My studies were further enriched by advanced coursework in areas like Deep Learning, Data Science, Cloud Computing, and Full Stack Development, preparing me for diverse challenges in the tech industry.",
       ],
       website_link: "https://www.griet.ac.in/",
     },
@@ -352,7 +361,7 @@ const certifications = {
       subtitle: "",
       logo_path: "Azure.png",
       certificate_link:
-        "https://nptel.ac.in/courses/106106179",
+        "https://drive.google.com/file/d/1LOY6zOxBRUUsJRfo0aKvaD4wzNUGrFpw/view?usp=sharing",
       alt_name: "",
       color_code: "#8C151599",
     },
@@ -392,7 +401,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I'm passionately immersed in the world of web development, where the art of UI/UX design meets the thrill of front-end development! At the University of Illinois Chicago, I channel my enthusiasm into crafting engaging, user-centric digital experiences using Drupal and WordPress. Each line of code and design element is a step towards perfecting interactive platforms that not only look great but function seamlessly. For me, every project is a new canvas to innovate, engage, and excite!",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -406,30 +415,20 @@ const experience = {
           logo_path: "UIC_logo.png",
           duration: "March 2022 - Present",
           location: "Chicago, Illinois",
+          
           description:
-            "Actively contributing to the development and optimization of the Patient Safety Leadership's digital presence. Pioneered SEO strategies enhancing web traffic and student engagement significantly. Collaborated with academic staff to improve backend processes, thereby elevating operational efficiency and course delivery.",
+            "I administered and optimized WordPress and Drupal websites, significantly enhancing communication and resource sharing among faculty and program participants. My responsibilities also included overseeing website security measures such as updates, patching, backups, and performance optimizations to ensure robust and reliable digital platforms. I provided comprehensive IT support, managing both hardware and software issues, and maintained AV equipment for various seminars and conferences, ensuring seamless technological operations. Additionally, I supported the Program Director and Coordinator by maintaining website integrity, optimizing SEO, updating Blackboard content, and staying current with industry advancements to enhance the program's technology infrastructure and develop IT support protocols.",
           color: "#0879bf",
-        },        
-        {
-          title: "Generative AI Engineer",
-          company: "JK Projects",
-          company_url: "https://www.jkprojects.in/",
-          logo_path: "UIC_logo.png",
-          duration: "February 2020 - July 2022",
-          location: "Hyderbad, India",
-          description:
-            "Designed and deployed a RAG system for energy consumption forecasting, integrating LLMs for dynamic updates, boosting accuracy by 20%. Implemented vector store technologies for efficient data retrieval. Developed semantic search algorithms, reducing costs by 15%. Led AI model integration with TensorFlow and PyTorch, enhancing scalability and reliability.",
-          color: "#0879bf",
-        },
+        },       
         {
           title: "Network Security Analyst",
           company: "Verzeo Pvt. Ltd.",
           company_url: "https://www.verzeo.com/",
           logo_path: "verzeo.png",
-          duration: "June 2021 - August 2021",
+          duration: "March 2021 - August 2022",
           location: "Hyderabad, Telangana",
           description:
-            "As a Network Security Analyst at Verzeo Pvt. Ltd., led pivotal cybersecurity initiatives, including comprehensive penetration testing and robust phishing defenses. Instrumental in identifying and mitigating critical vulnerabilities, which fortified security protocols and data integrity across the organization.",
+            "As a Cybersecurity Specialist, I enrolled devices in Defender for Endpoint to manage threat detections and incident responses, significantly enhancing security measures and compliance across the organization. I efficiently administered Azure Active Directory, optimizing system security and user management through strategic group policy management and replication. My role involved implementing robust security controls and backup solutions that align with industry standards and regulatory requirements, complemented by managing compliance using Purview. I spearheaded comprehensive penetration tests and phishing campaigns using NMAP, Metasploit, and SEToolkit to identify and mitigate vulnerabilities in over 250 devices, alongside developing security solution prototypes like Mobile-tracker-free and Ophcrack to showcase innovative product features and enforce stringent password policies.",
           color: "#fc1f20",
         },
       ],
@@ -463,7 +462,7 @@ const experience = {
           duration: "June 2017 - April 2018",
           location: "Hyderabad, Telangana",
           description:
-            "Working as the President at Street Cause- GRIET, I helped the underprivigled people of the state to have a better life.",
+            "As the President of Street Cause, I spearheaded initiatives to support underserved communities, focusing on renovating government schools and orphanages to provide better educational and living conditions for children. My leadership extended to organizing medical camps in rural villages, offering essential health services to populations with limited access to medical care. Through these efforts, we not only improved physical infrastructures but also enhanced the well-being and future prospects of countless individuals in need, demonstrating a deep commitment to social responsibility and community support.",
           color: "#4285F4",
         },
         
@@ -538,7 +537,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "prof1.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me!",
   },
   blogSection: {
   },
